@@ -6,43 +6,46 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Como você acredita que podemos combater o racismo na sociedade?",
+        enunciado: "Qual é o tipo de tração mais comum em carros de drift?",
         alternativas: [
             {
-                texto: "Participando de campanhas de conscientização e educação sobre igualdade racial.",
-                afirmacao: "afirmacao1"
+                texto: "Traseira",
+                afirmacao: "Carros com tração traseira são preferidos em drift porque permitem que a traseira do carro se mova mais livremente, facilitando o controle durante os derrapagens.
+"
             },
             {
-                texto: "Denunciando atos de discriminação e apoiando políticas públicas inclusivas.",
-                afirmacao: "afirmacao2"
+                texto: "Dianteira",
+                afirmacao: "Carros com tração dianteira são menos comuns no drift porque tendem a subvirar, o que dificulta o controle da traseira durante o drift."
             }
            
         ]
     },
     {
-        enunciado: "Como você pode ajudar a combater a disseminação de fake news, especialmente as que perpetuam o racismo?",
+        enunciado: "Qual é a importância do ângulo de caster em um carro de drift?",
         alternativas: [
             {
-                texto: "Verificando a veracidade das informações antes de compartilhar qualquer conteúdo, especialmente sobre temas sensíveis como racismo.",
-                afirmacao: "afirmacao3"
+                texto: " Aumenta a estabilidade",
+                afirmacao: "Um ângulo de caster maior ajuda a melhorar a estabilidade e o controle direcional, permitindo ao piloto manter um drift mais controlado e consistente.
+"
             },
             {
-                texto: "Educando amigos e familiares sobre os perigos das fake news e incentivando-os a não compartilhar conteúdos falsos que perpetuam o racismo.",
-                afirmacao: "afirmacao4"
+                texto: "Reduz o desgaste dos pneus",
+                afirmacao: "Embora o ângulo de caster possa ajudar na estabilidade, a principal função não é reduzir o desgaste dos pneus, mas sim melhorar a resposta do volante e a sensação de direção.
+"
             }
            
         ]
     },
     {
-        enunciado: "Como podemos incentivar o uso de energia solar e outras formas de energia limpa, especialmente em comunidades carentes?",
+        enunciado: "Qual tipo de suspensão é mais frequentemente usado em carros de drift?",
         alternativas: [
             {
-                texto: "Defendendo políticas públicas que subsidiem a energia solar para famílias de baixa renda.",
-                afirmacao:"afirmacao5"
+                texto: "Suspensão de coifa ajustável",
+                afirmacao:"Suspensões de coifa ajustável permitem modificar a altura do carro e a rigidez das molas, o que é crucial para ajustar o carro para diferentes condições de pista e estilos de drift."
             },
             {
-                texto: "Promovendo a instalação de painéis solares em escolas e centros comunitários de comunidades marginalizadas.",
-                afirmacao:"afirmacao6"
+                texto: "Suspensão de mola helicoidal fixa",
+                afirmacao:"Suspensões de mola helicoidal fixa são menos flexíveis em termos de ajuste, o que pode limitar a capacidade do carro de se adaptar às exigências do drift e às variações de pista."
             }
         ]
     }
